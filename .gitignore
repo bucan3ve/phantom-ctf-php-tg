@@ -1,0 +1,27 @@
+# PHP / Composer
+/vendor/
+/composer.phar
+/composer.lock
+.env
+.env.local
+.env.*.local
+.phpunit.result.cache
+.php_cs.cache
+.int*
+# IDEs / OS
+/.idea/
+/.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+# Node (if you have frontend assets)
+node_modules/
+
+# Docker-related artifacts
+docker-compose.override.yml
+*.tmp
+
+# Build artifacts
+/build/
+/dist/

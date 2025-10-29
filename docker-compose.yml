@@ -1,0 +1,8 @@
+services:
+  bot_server:
+    build: .
+    environment:
+      - BOT_TOKEN=$BOT_TOKEN
+    volumes:
+      - ./src:/var/www/html
+    command: php /var/www/html/poller.php
